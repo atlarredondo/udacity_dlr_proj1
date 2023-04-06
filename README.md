@@ -18,9 +18,11 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ## Instructions
 
-Follow the instructions in `Train.ipynb` to train a new agent and save new weights. 
 To use test the agent with pretrained weights run `agent_act.py` or go thorugh the `agent_act.ipyn` .
 The `model.pth` contains pretained weights for the model.
+
+Follow the instructions in `Train.ipynb` to train a new agent and save new weights. 
+
 
 ### File Description
 
