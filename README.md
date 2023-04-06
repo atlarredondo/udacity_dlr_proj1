@@ -18,14 +18,18 @@ The task is episodic, and in order to solve the environment, your agent must get
 
 ## Instructions
 
-Follow the instructions in `Navigation.ipynb` to bootstrap the enviroment and start training the agent. 
-The `checkpoint_double_dqn.pth` contains pretained weights for the model.
+Follow the instructions in `Train.ipynb` to train a new agent and save new weights. 
+To use test the agent with pretrained weights run `agent_act.py` or go thorugh the `agent_act.ipyn` .
+The `model.pth` contains pretained weights for the model.
 
 ### File Description
+
+`Report.ipynb`: Contains the report of the process used to train the agent.
 
 `model.py`: The DQN pytorch model definition.
 
 `agent.py`: Contains the Agent class that can learn and interact with an environment state, and the ReplayBuffer class used to train the agent. 
 
-`Navigation.ipynb`: Notebook used to bootstrap the environemnt and train the agent.
+`Train.ipynb`: Notebook used to bootstrap the environemnt and train the agent.
 
+`Agent_Act.ipynb.ipynb`: Notebook to test the agent by using pretrained weights. (agent_act.py) is the python version.
